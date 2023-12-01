@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Operators</title>
+</head>
+<body>
+    <script>
+        // Arithmatic Operators
+
+        var a = 5;
+            a++;
+            a+=6 
+        var exp = a ** 3;
+        // a = a + 6
+       document.write('Value of A is:'+a+'<br>')
+   document.write('<hr>')
+
+   document.write('<h2>Assignment operators</h2>');
+   var x = 6;
+        x+=7;  // a = a + 7
+        x-=3;  // a = a - 3
+
+        document.write(x);
+
+        document.write('<hr>')
+
+document.write('<h2>Comparasion Operators</h2>');
+
+var y = 70;
+var z = 50;
+var con = y == z;
+var con = y === z;
+var con = y > z; 
+var con = y == z ? 'Con is True':'Con is False'; 
+document.write('Condition is:'+ con);
+
+document.write('<hr>')
+
+document.write('<h2>String Operators</h2>');
+var text1 = 'Geeta';
+var text2 = 'University';
+
+document.write(text1 +" "+text2);
+
+document.write('<hr>')
+
+document.write('<h2>Logical Operators</h2>');
+
+var user = 'sofik';
+var pass = 123456;
+
+var con = user == 'sofik' && pass == 12345;
+
+document.write(con);
+
+document.write('<hr>')
+
+document.write('<h2>Type of Operators</h2>');
+
+var num = {num1:12,num2:13,num3:56};
+document.write(typeof(num));
+
+document.write('<hr>')
+
+document.write('<h2>Bitwise Operators</h2>');
+// 8 4 2 1
+// 00001010
+var a1 = 6; // 0110
+var a2 = 7; // 0111
+var bit = a1 << 1; // 0001
+document.write(bit);
+
+    </script>
+</body>
+</html>
